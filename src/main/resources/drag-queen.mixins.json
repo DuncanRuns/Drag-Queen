@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "me.duncanruns.dragqueen.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"FireworkRocketEntityMixin",
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
